@@ -84,16 +84,15 @@ img {
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px; /* 114.286% */
-  letter-spacing: -1.12px;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
   padding-bottom: 40px;
 }
 
 @media only screen and (min-width: 768px) {
   .mentors {
     font-size: 48px;
-    line-height: 54px; /* 112.5% */
-    letter-spacing: -1.92px;
+    line-height: 1.13;
     padding-bottom: 50px;
   }
 }
@@ -114,15 +113,14 @@ img {
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px;
-  letter-spacing: -1.12px;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
 }
 
 @media only screen and (min-width: 768px) {
   .mentors-color {
     font-size: 48px;
-    line-height: 54px;
-    letter-spacing: -1.92px;
+    line-height: 1.13;
   }
 }
 
@@ -158,36 +156,33 @@ img {
 .mentor-name {
   color: #fff;
   text-align: center;
-  font-family: DM Sans;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 120% */
+  line-height: 1.2;
   margin-bottom: 4px;
 }
 
 @media only screen and (min-width: 768px) {
   .mentor-name {
     font-size: 28px;
-    line-height: 32px; /* 114.286% */
+    line-height: 1.14;
   }
 }
 
 .mentor-exp {
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
-  font-family: DM Sans;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 16px; /* 133.333% */
-  letter-spacing: -0.24px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
 }
 
 @media only screen and (min-width: 768px) {
   .mentor-exp {
     font-size: 14px;
-    line-height: 18px; /* 128.571% */
-    letter-spacing: -0.28px;
+    line-height: 1.29;
   }
 }
