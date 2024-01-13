@@ -1,7 +1,6 @@
 body {
   font-family: 'DM Sans', sans-serif;
   background-color: #121212;
-  color: #434455;
 }
 
 a {
@@ -48,6 +47,32 @@ img {
   border: 2px solid green;
 }
 
+@media screen and (min-width: 768px) {
+  .container {
+    /* Tablet */
+    min-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    /* Desktop */
+    min-width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .container {
+    min-width: 1440px;
+  }
+}
+
 /* Styles */
 
 .our-mentors {
@@ -63,6 +88,26 @@ img {
   letter-spacing: -1.12px;
   padding-bottom: 40px;
 }
+
+@media only screen and (min-width: 768px) {
+  .mentors {
+    font-size: 48px;
+    line-height: 54px; /* 112.5% */
+    letter-spacing: -1.92px;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .mentors {
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .mentors {
+  }
+}
+
 .mentors-color {
   color: #bea69e;
   font-family: DM Sans;
@@ -72,8 +117,27 @@ img {
   line-height: 32px;
   letter-spacing: -1.12px;
 }
+
+@media only screen and (min-width: 768px) {
+  .mentors-color {
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -1.92px;
+  }
+}
+
 .mentors-list {
   text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .mentors-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 100px;
+    row-gap: 93px;
+  }
 }
 
 .mentors-list-item {
@@ -101,6 +165,14 @@ img {
   line-height: 24px; /* 120% */
   margin-bottom: 4px;
 }
+
+@media only screen and (min-width: 768px) {
+  .mentor-name {
+    font-size: 28px;
+    line-height: 32px; /* 114.286% */
+  }
+}
+
 .mentor-exp {
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
@@ -110,4 +182,12 @@ img {
   font-weight: 400;
   line-height: 16px; /* 133.333% */
   letter-spacing: -0.24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .mentor-exp {
+    font-size: 14px;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.28px;
+  }
 }
